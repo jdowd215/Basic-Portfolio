@@ -1,26 +1,26 @@
 body {
     background: 
-        url(images/dust_scratches.png);
+        url(../images/dust_scratches.png);
 }
 
 h1 {
     background-color: #4aaaa5;
     color: #ffffff;
     border: #cccccc;
-    margin-top: 20px;
     margin-left: 40px;
-    margin-right:300px;
+    margin-right: 300px;
     padding: 10px;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Georgia', Georgia, 'Times New Roman', Times, serif;
+    float: left;
 }
 
 ul {
     background-color: #ffffff;
     text:#777777;
     font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-}
+}    
 
 li {
     float: right;
@@ -28,6 +28,11 @@ li {
     text-align: center;
     padding: 10px;
     border-right: 1px solid #777777;
+}
+
+.navbarlink {
+    color: #777777;
+    text-decoration: none;
 }
 
 img {
@@ -38,13 +43,21 @@ div {
     background-color: #ffffff;
     border-color: #dddddd;
     border: 2px;
-    margin: 40px;
     padding: 20px;
+}
+
+.bio {
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 h2 {
     text: #4aaaa5;
+    background-color: #ffffff;
+    border-bottom-color: #dddddd
 }
+
+
 
 footer {
     background-color: #666666;
