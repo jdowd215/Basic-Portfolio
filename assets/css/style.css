@@ -1,14 +1,14 @@
 body {
     background: 
-        url(../images/dust_scratches.png);
+        url(../images/dust_scratches.png);    
 }
 
 h1 {
     background-color: #4aaaa5;
     color: #ffffff;
     border: #cccccc;
-    margin-left: 40px;
-    margin-right: 300px;
+    margin-left: 50px;
+    margin-right: 250px;
     padding: 10px;
     text-align: center;
     font-size: 30px;
@@ -24,7 +24,7 @@ ul {
 
 li {
     float: right;
-    display: block;
+    display: inline;
     text-align: center;
     padding: 10px;
     border-right: 1px solid #777777;
@@ -37,35 +37,54 @@ li {
 
 img {
     float: left;
+    padding: 30px;
 }
 
-div {
+.bio {
     background-color: #ffffff;
     border-color: #dddddd;
     border: 2px;
     padding: 20px;
-}
-
-.bio {
+    margin-top: 40px;
+    border: 5px #666666;
     margin-left: 50px;
     margin-right: 50px;
+    margin-bottom: 40px;
 }
 
-h2 {
+.about {
     text: #4aaaa5;
     background-color: #ffffff;
-    border-bottom-color: #dddddd
+    border-bottom-color: #dddddd;
 }
 
-
-
-footer {
+.footer {
     background-color: #666666;
     text: #ffffff;
     text-align: center;
+    line-height: 2em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    border-top: 5px #4aaaa5
 }
 
+label {
+    display: block;
+    padding: 10px;
+}
 
+input {
+    display: block;
+}
+
+div.container {
+    margin: 5px;
+    border: 1px solid #666666;
+    float: left;
+    width: 180px;
+}
 
 
 
