@@ -1,5 +1,5 @@
 body {
-    background: 
+    background-image: 
         url(../images/dust_scratches.png);    
 }
 
@@ -41,6 +41,7 @@ img {
 }
 
 .bio {
+    display: inline-block;
     background-color: #ffffff;
     border-color: #dddddd;
     border: 2px;
@@ -82,7 +83,7 @@ input {
 div.container {
     margin: 5px;
     border: 1px solid #666666;
-    float: left;
+    /* float: left; */
     width: 180px;
 }
 
